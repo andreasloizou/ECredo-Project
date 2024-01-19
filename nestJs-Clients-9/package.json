@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@nestjs/testing": "^10.3.0",
+    "jest": "^29.7.0"
+  }
+}

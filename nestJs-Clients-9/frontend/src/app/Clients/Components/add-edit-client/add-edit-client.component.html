@@ -1,0 +1,42 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <a routerLink="/" style="text-decoration: none; color: inherit;">eCredo</a>
+        <span class="example-spacer"></span>
+        <div *ngIf="client.id == -1">
+            <h1>Add New Client</h1>
+        </div>
+        <div *ngIf="client.id > -1">
+            <h1>Edit Client</h1>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+<br>
+<br>
+<br>
+<div class="addEditFormClass">
+    <form [formGroup]="userForm">
+        <div>
+            <div style="display: flex; flex-direction: column;">
+                <label *ngIf="client.id > -1" for="id">ID:</label>
+                <input type="number" id="id" formControlName="id" [(ngModel)]="client.id" *ngIf="client.id > -1"
+                    readonly />
+            </div>
+            <div *ngIf="userForm.get('id')?.invalid && userForm.get('id')?.touched">
+                ID is required.
+            </div>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <label for="name">Name:</label>
+            <input type="string" id="name" formControlName="name" [(ngModel)]="client.name" placeholder="Name" />
+            <div *ngIf="userForm.get('name')?.invalid && userForm.get('name')?.touched">
+                Name must be at least 2 characters long.
+            </div>
+        </div>
+        <br>
+        <button mat-raised-button color="custom-color" type="submit" *ngIf="client.id == -1"
+            (click)="createNewClient(client)" [disabled]="userForm.invalid">Add New Client</button>
+        <button mat-raised-button color="custom-color" type="submit" *ngIf="client.id > -1" (click)="editClient(client)"
+            [disabled]="userForm.invalid">Save Changes</button>
+        <button mat-raised-button color="warn" (click)="cancelAction()">Cancel</button>
+    </form>
+</div>

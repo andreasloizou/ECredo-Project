@@ -1,0 +1,240 @@
+.addEditFormClass {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+form {
+    -webkit-box-shadow: -2px 1px 31px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 1px 31px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 1px 31px 0px rgba(0, 0, 0, 0.75);
+    padding: 50px;
+}
+
+button {
+    margin: 5px;
+}
+
+input {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.mat-toolbar.mat-primary {
+    color: #ffffff;
+    background-color: #1e6f77;
+}
+
+.bnt-mrgn-top {
+    margin-top: 30px;
+}
+
+.btns-height-mn {
+    padding: 0px 12px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+tr .mn-grid-class {
+    line-height: 14px;
+    overflow: auto;
+    border-width: 0px;
+    min-height: 224px !important;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
+.k-grid tr.mn-grid-class:hover,
+.k-grid td.mn-grid-class:hover {
+    background-color: #cdefff;
+    color: rgb(15, 15, 15);
+}
+
+tr .location-grid-class {
+    line-height: 14px;
+    overflow: auto;
+    border-width: 1px;
+    min-height: 224px !important;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
+.k-grid tr.location-grid-class:hover,
+.k-grid td.location-grid-class:hover {
+    background-color: #cdefff;
+    color: rgb(15, 15, 15);
+}
+
+.my-grid-class {
+    height: 385px !important;
+}
+
+.kendo-multiselect div kendo-taglist ul li.k-button {
+    border: 0px !important;
+}
+
+.outline-btns-mn {
+    outline-color: #0081CE;
+    color: #0081CE;
+    background-color: white;
+    padding: 0px 7px;
+}
+
+.outline-btns-mn:hover {
+    outline-color: #0081CE;
+    color: white;
+    border: 1px solid;
+    background-color: #0081CE;
+}
+
+.remove-bold-from-label {
+    font-weight: normal !important;
+}
+
+.k-list .k-item,
+.k-list-optionlabel {
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.list-mn {
+    border: 1px solid #e7eaec;
+    padding: 5px 0 5px 4px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pace-running modal.my-size-modal.modal.fade.in div.modal-dialog,
+.pace-running modal.my-size-modal.modal.fade div.modal-dialog,
+.modal-open.pace-running modal.my-size-modal.modal.fade.in div.modal-dialog,
+.modal-open.pace-running modal.my-size-modal.modal.fade div.modal-dialog,
+.modal-open.pace-done modal.my-size-modal.modal.fade.in div.modal-dialog,
+.modal-open.pace-done modal.my-size-modal.modal.fade div.modal-dialog,
+.modal-open.pace-inactive modal.my-size-modal.modal.fade.in div.modal-dialog,
+.modal-open.pace-inactive modal.my-size-modal.modal.fade div.modal-dialog,
+.pace-done modal.my-size-modal.modal.fade.in div.modal-dialog,
+.pace-done modal.my-size-modal.modal.fade div.modal-dialog {
+    width: 60% !important;
+}
+
+.ui-fileupload {
+    height: 100px;
+    display: contents;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.img-fluid {
+    width: 60%;
+    height: 140px;
+}
+
+.my-diagonal {
+    transform: rotate(-19deg);
+}
+
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    cursor: pointer;
+    color: #0081CE;
+}
+
+.table-grid th,
+.table-grid td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.mat-column-action1,
+.mat-column-action2 {
+    white-space: nowrap;
+}
+
+.mat-column-action1 button,
+.mat-column-action2 button {
+    margin-right: 5px;
+}
+
+.mat-column-action1:nth-child(2) button,
+.mat-column-action2:nth-child(2) button {
+    margin-right: 0;
+}
+
+
+.mat-cell.mat-column-action1,
+.mat-cell.mat-column-action2 {
+    padding: 8px 4px;
+}
+
+.example-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.mat-table {
+    overflow: auto;
+    max-height: 500px;
+    width: 100%;
+}
+
+.example-icon {
+    padding: 0 14px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.mat-column-action1,
+.mat-column-action2 {
+    white-space: nowrap;
+}
+
+.mat-column-action1+.mat-column-action2 {
+    margin-left: 5px;
+}
+
+.example-header {
+    min-height: 64px;
+    padding: 8px 24px 0;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.mdc-button.mat-custom-color {
+    color: #16e78c;
+    background-color: #ddd31b;
+}
+
+.mat-mdc-raised-button.mat-custom-color {
+    color: #ffffff;
+    background-color: #1e6f77;
+}
+
+.mat-mdc-icon-button.mat-custom-color {
+    color: #17d1bf;
+    background-color: #ffffff;
+}
+
+.mat-toolbar.mat-primary {
+    color: #ffffff;
+    background-color: #1e6f77;
+}

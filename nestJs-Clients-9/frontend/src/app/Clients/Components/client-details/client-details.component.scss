@@ -1,0 +1,85 @@
+.table-grid th,
+.table-grid td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.mat-column-action1,
+.mat-column-action2 {
+    white-space: nowrap;
+}
+
+.mat-column-action1 button,
+.mat-column-action2 button {
+    margin-right: 5px;
+}
+
+.mat-column-action1:nth-child(2) button,
+.mat-column-action2:nth-child(2) button {
+    margin-right: 0;
+}
+
+
+.mat-cell.mat-column-action1,
+.mat-cell.mat-column-action2 {
+    padding: 8px 4px;
+}
+
+.example-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.mat-table {
+    overflow: auto;
+    max-height: 500px;
+    width: 100%;
+}
+
+.example-icon {
+    padding: 0 14px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.mat-column-action1,
+.mat-column-action2 {
+    white-space: nowrap;
+}
+
+.mat-column-action1+.mat-column-action2 {
+    margin-left: 5px;
+}
+
+.example-header {
+    min-height: 64px;
+    padding: 8px 24px 0;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.mdc-button.mat-custom-color {
+    color: #16e78c;
+    background-color: #ddd31b;
+}
+
+.mat-mdc-raised-button.mat-custom-color {
+    color: #ffffff;
+    background-color: #1e6f77;
+}
+
+.mat-mdc-icon-button.mat-custom-color {
+    color: #17d1bf;
+    background-color: #ffffff;
+}
+
+.mat-toolbar.mat-primary {
+    color: #ffffff;
+    background-color: #1e6f77;
+}
